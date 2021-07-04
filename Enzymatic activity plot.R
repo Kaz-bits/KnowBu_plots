@@ -58,4 +58,3 @@ p + geom_text(aes(label = "", y = 1/C)) +
 ggsave(filename = "Enzymatic activity.png", units = "in", width = 7, 
        height = 4, device = "png", dpi = 350)
   
-})
