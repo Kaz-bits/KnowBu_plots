@@ -7,7 +7,7 @@ library(ggplot)
 #load data. For this example: iris dataset
 View(iris)
 
-#add first layers, jitter points and a boxplot
+#add first layers and jitter points
 p <- ggplot(iris, aes(x = Species, y = Petal.Length, fill = Species)) + 
   geom_violin(trim = FALSE) +
   geom_jitter(aes(fill = Species), shape = 21, width = 0.1) 
