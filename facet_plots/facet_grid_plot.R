@@ -27,3 +27,6 @@ p + ggtitle("Multipanel plot for visualizing groups") +
         legend.key.size = unit(1, "cm"),
         strip.text = element_text(size = 12)) +
   scale_fill_discrete(name = "New York\ncarriers")
+
+
+
