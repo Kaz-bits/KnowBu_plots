@@ -11,7 +11,7 @@ View(iris)
 p <- ggplot(iris, aes(x = Species, y = Petal.Length, fill = Species)) + 
       geom_violin(trim = FALSE) +
       geom_boxplot(width = 0.1, color = "white", size = 0.6) + 
-      geom_jitter(aes(fill = Species), shape = 21, width = 0.1) 
+      geom_jitter(aes(fill = Species), shape = 21, width = 0.5) 
 
 #customize plot using theme() layer
 p + theme_classic() + 
