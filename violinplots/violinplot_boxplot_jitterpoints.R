@@ -2,7 +2,7 @@
 #-----violin plot with jitter points----
 
 #load ggplot2 package
-library(ggplot)
+library(ggplot2)
 
 #load data. For this example: iris dataset
 View(iris)
